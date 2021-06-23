@@ -5,11 +5,11 @@ import { RoomCode } from "../components/RoomCode";
 import "../styles/room.scss";
 
 type RoomParams = {
-  id: string;
-}
+	id: string;
+};
 
 export function Room() {
-  const params = useParams<RoomParams>();
+	const params = useParams<RoomParams>();
 
 	return (
 		<div id="page-room">

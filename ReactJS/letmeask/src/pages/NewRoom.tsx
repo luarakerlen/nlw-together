@@ -17,15 +17,15 @@ export function NewRoom() {
 	async function handleCreateRoom(event: FormEvent) {
 		event.preventDefault();
 
-		if(newRoom.trim() === '') {
+		if (newRoom.trim() === "") {
 			return;
 		}
 
-		const roomRef = database.ref('rooms');
+		const roomRef = database.ref("rooms");
 
 		const firebaseRoom = await roomRef.push({
 			title: newRoom,
-			authorId: user?.id
+			authorId: user?.id,
 		});
 
 		history.push(`/rooms/${firebaseRoom.key}`);
