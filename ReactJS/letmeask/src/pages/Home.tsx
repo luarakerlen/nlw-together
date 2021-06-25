@@ -38,7 +38,7 @@ export function Home() {
 		}
 
 		if ((await roomRef).val().endedAt) {
-			alert("Room alread closed.");
+			alert("Room already closed.");
 			return;
 		}
 
