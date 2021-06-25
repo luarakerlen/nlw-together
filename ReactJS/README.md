@@ -30,7 +30,7 @@ Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
 $ git clone https://github.com/luarakerlen/nlw-together/tree/main/ReactJS
-$ cd nlw-06-reactjs
+$ cd letmeask
 ```
 
 Para iniciá-lo, siga os passos abaixo:
