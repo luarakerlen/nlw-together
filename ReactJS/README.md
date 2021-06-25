@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Letmeask" src="ReactJS/letmeask/src/assets/images/logo.svg" width="160px">
+  <img alt="Letmeask" src="./ReactJS/letmeask/src/assets/images/logo.svg" width="160px">
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="Letmeask" src="ReactJS/letmeask/src/assets/images/nlw.png" />
+    <img alt="Letmeask" src="./ReactJS/letmeask/src/assets/images/nlw.png" />
 </h1>
 
 <br>
