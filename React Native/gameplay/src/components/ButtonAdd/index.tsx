@@ -8,9 +8,9 @@ export function ButtonAdd({ ...rest }: RectButtonProps) {
 	return (
 		<RectButton style={styles.container} {...rest}>
 			<MaterialCommunityIcons
-			name="plus"
-			color={theme.colors.heading}
-			size={24}
+				name="plus"
+				color={theme.colors.heading}
+				size={24}
 			/>
 		</RectButton>
 	);

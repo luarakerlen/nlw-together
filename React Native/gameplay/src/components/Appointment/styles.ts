@@ -3,7 +3,7 @@ import { theme } from "../../global/styles/theme";
 
 export const styles = StyleSheet.create({
 	container: {
-		width: '100%',
+		width: "100%",
 		flexDirection: "row",
 		alignItems: "center",
 	},
@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
 		flex: 1,
 	},
 	header: {
-		width: '100%',
+		width: "100%",
 		flexDirection: "row",
 		justifyContent: "space-between",
 		marginBottom: 12,
@@ -29,7 +29,7 @@ export const styles = StyleSheet.create({
 	},
 	footer: {
 		flexDirection: "row",
-		width: '100%',
+		width: "100%",
 		justifyContent: "space-between",
 	},
 	dateInfo: {
@@ -51,5 +51,5 @@ export const styles = StyleSheet.create({
 		fontSize: 13,
 		marginLeft: 7,
 		marginRight: 24,
-	}
+	},
 });

@@ -28,7 +28,7 @@ export function CategorySelect({
 					title={category.title}
 					icon={category.icon}
 					checked={category.id === categorySelected}
-					onPress={!hasCheckBox ? (() => {}) : (() => setCategory(category.id))}
+					onPress={!hasCheckBox ? () => {} : () => setCategory(category.id)}
 					hasCheckBox={hasCheckBox}
 				/>
 			))}
