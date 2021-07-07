@@ -29,6 +29,24 @@ export function AppointmentDetails() {
 			avatar_url: "https://github.com/luarakerlen.png",
 			status: "offline",
 		},
+		{
+			id: "3",
+			username: "Mille",
+			avatar_url: "https://github.com/luarakerlen.png",
+			status: "offline",
+		},
+		{
+			id: "4",
+			username: "Mille",
+			avatar_url: "https://github.com/luarakerlen.png",
+			status: "offline",
+		},
+		{
+			id: "5",
+			username: "Mille",
+			avatar_url: "https://github.com/luarakerlen.png",
+			status: "offline",
+		},
 	];
 
 	return (

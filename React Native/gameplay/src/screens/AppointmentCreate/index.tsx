@@ -31,11 +31,15 @@ export function AppointmentCreate() {
 	const [guild, setGuild] = useState<GuildProps>({} as GuildProps);
 
 	function handleCategorySelect(categoryId: string) {
-		categoryId === category ? setCategory("") : setCategory(categoryId);
+		setCategory(categoryId);
 	}
 
 	function handleOpenGuilds() {
 		setOpenGuildsModal(true);
+	}
+
+	function handleCloseGuilds() {
+		setOpenGuildsModal(false);
 	}
 
 	function handleGuildSelect(guildSelected: GuildProps) {
@@ -125,11 +129,11 @@ export function AppointmentCreate() {
 						</View>
 					</View>
 				</ScrollView>
-
-				<ModalView visible={openGuildsModal}>
-					<Guilds handleGuildSelect={handleGuildSelect} />
-				</ModalView>
 			</Background>
+
+			<ModalView visible={openGuildsModal} closeModal={handleCloseGuilds}>
+				<Guilds handleGuildSelect={handleGuildSelect} />
+			</ModalView>
 		</KeyboardAvoidingView>
 	);
 }
