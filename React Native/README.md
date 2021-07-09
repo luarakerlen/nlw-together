@@ -16,6 +16,8 @@
 ## 💻 Projeto
 Aplicativo para lhe ajudar a conectar-se e organizar o momento de diversão e jogar com os amigos. Crie grupos para jogar seus games favoritos com seus amigos com esse App que possui autenticação com Discord.
 
+Este é um projeto desenvolvido durante a **[Next Level Week Together](https://nextlevelweek.com/)**, apresentada dos dias 20 a 27 de Junho de 2021.
+
 ## :hammer_and_wrench: Features 
 
 -   [ ] Autenticação Social OAuth2 com servidor do Discord.
